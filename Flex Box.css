@@ -1,0 +1,18 @@
+.container{
+    background-color: orange;
+    border: 1px solid black;
+    padding: 0.4rem;
+    height: 30vh;
+    width: 100vm;
+    display: flex;
+    flex-direction: row; /*row-reverse(al reves), rom (uno de lado de otro), column-reverse */
+    justify-content: center; /*flex-start, flex end, */
+    align-items: center; /*flex-start, flex end, */
+    gap: 2vh;
+
+}
+
+.element{
+    border: 1px solid black;
+    margin: 0.4rem;
+}
